@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="D:/ATR - 791/IdeaProjects/MavenProject2/src/test/java/AutoPack1(failed)">
+    <classes>
+      <class name="AutoPack1.TestFire0901">
+        <methods>
+          <include name="SendMessage"/>
+          <include name="clickOnButton"/>
+          <include name="openChatBox"/>
+          <include name="OpenWebsite"/>
+        </methods>
+      </class> <!-- AutoPack1.TestFire0901 -->
+      <class name="AutoPack1.MetaMask">
+        <methods>
+          <include name="getMnemonic"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- AutoPack1.MetaMask -->
+      <class name="AutoPack1.CompareString">
+        <methods>
+          <include name="getMnemonic"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- AutoPack1.CompareString -->
+      <class name="AutoPack1.ExchangeExcelOrders">
+        <methods>
+          <include name="Email"/>
+          <include name="LoginButton"/>
+          <include name="Password"/>
+          <include name="OpenWebsite"/>
+          <include name="NaviGateToExchange"/>
+          <include name="price"/>
+          <include name="Captcha"/>
+        </methods>
+      </class> <!-- AutoPack1.ExchangeExcelOrders -->
+      <class name="AutoPack1.Test1912">
+        <methods>
+          <include name="GetAvailableBalance"/>
+          <include name="Captcha"/>
+          <include name="Email"/>
+          <include name="price"/>
+          <include name="NaviGateToExchange"/>
+          <include name="Password"/>
+          <include name="LoginButton"/>
+        </methods>
+      </class> <!-- AutoPack1.Test1912 -->
+      <class name="AutoPack1.AutoClass1">
+        <methods>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- AutoPack1.AutoClass1 -->
+      <class name="AutoPack1.test">
+        <methods>
+          <include name="runIterator"/>
+        </methods>
+      </class> <!-- AutoPack1.test -->
+      <class name="AutoPack1.test0812">
+        <methods>
+          <include name="inputEmail"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- AutoPack1.test0812 -->
+      <class name="AutoPack1.DropDownsPractice">
+        <methods>
+          <include name="DropDowmsPractice"/>
+        </methods>
+      </class> <!-- AutoPack1.DropDownsPractice -->
+    </classes>
+  </test> <!-- D:/ATR - 791/IdeaProjects/MavenProject2/src/test/java/AutoPack1(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

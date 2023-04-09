@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/ATR - 791/IdeaProjects/MavenProject2/src/test/java/AutoPack1">
+        <classes>
+            <class name="AutoPack1.AutoClass1">
+                <methods>
+                    <include name="openBrowser"/>
+                    <include name="OpenLink"/>
+                    <include name="getTitle"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.CompareString">
+                <methods>
+                    <include name="launchBrowser"/>
+                    <include name="getMnemonic"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.DropDownsPractice">
+                <methods>
+                    <include name="InvokeChrome"/>
+                    <include name="DropDowmsPractice"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.ExchangeExcelOrders">
+                <methods>
+                    <include name="InvokeChrome"/>
+                    <include name="OpenWebsite"/>
+                    <include name="Email"/>
+                    <include name="Password"/>
+                    <include name="Captcha"/>
+                    <include name="LoginButton"/>
+                    <include name="NaviGateToExchange"/>
+                    <include name="price"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.MetaMask">
+                <methods>
+                    <include name="launchBrowser"/>
+                    <include name="getMnemonic"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.Test1912">
+                <methods>
+                    <include name="InvokeChrome"/>
+                    <include name="OpenWebsite"/>
+                    <include name="Email"/>
+                    <include name="Password"/>
+                    <include name="Captcha"/>
+                    <include name="LoginButton"/>
+                    <include name="NaviGateToExchange"/>
+                    <include name="price"/>
+                    <include name="GetAvailableBalance"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.TestFire0901">
+                <methods>
+                    <include name="InvokeChrome"/>
+                    <include name="OpenWebsite"/>
+                    <include name="openChatBox"/>
+                    <include name="clickOnButton"/>
+                    <include name="SendMessage"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.test">
+                <methods>
+                    <include name="SetupWebDriver"/>
+                    <include name="runIterator"/>
+                </methods>
+            </class>
+            <class name="AutoPack1.test0812">
+                <methods>
+                    <include name="openBrowser"/>
+                    <include name="openUrl"/>
+                    <include name="inputEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
