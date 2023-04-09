@@ -28,7 +28,9 @@ public class AAWAZSignUP {
             Thread.sleep(5000);
             System.out.println("Account Emails are:: " + email);
             System.out.println("Test");
-            //testemail
+
+
+            // This is the changes made in the downloaded code
         }
     }
 }
